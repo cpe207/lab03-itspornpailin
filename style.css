@@ -1,0 +1,336 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0;
+}
+  
+.navigation a {
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+.card-text-black {
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+.navigation h3 {
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+  
+.navigation a:hover {
+    background: #f2e0e9;
+}
+  
+@media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+}
+
+.profile-img {
+    width: 224px;
+    height: 224px;
+}
+
+.name-text {
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+.detail-text {
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.top-background {
+    background-color: #fff2f4;
+}
+
+.first-skill-background {
+    background-color: #ffecef;
+}
+
+.second-skill-background {
+    background-color: #ffe5ea;
+}
+
+.third-skill-background {
+    background-color: #ffdfe5;
+}
+
+.rounded-all {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.rounded-left {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.skills-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.fixed-bg {
+    background-image: url(background.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-background-exp {
+    background-color: #eff8fa;
+}
+
+.navigation-exp {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0;
+}
+  
+.navigation-exp a {
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+.navigation-exp h3 {
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+  
+.navigation-exp a:hover {
+    background: #e2edf0;
+}
+  
+@media all and (max-width: 800px) {
+    .navigation-exp {
+      justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation-exp {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation-exp a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation-exp li:last-of-type a {
+      border-bottom: none;
+    }
+}
+
+.card-img {
+    filter: blur(5px);
+    width: 15em;
+    height: 25em;
+}
+
+.fixed-bg-exp {
+    background-image: url(frutiger.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-background-gal {
+    background-color: #cce5cc;
+}
+
+.navigation-gal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0;
+}
+  
+.navigation-gal a {
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+.navigation-gal h3 {
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+  
+.navigation-gal a:hover {
+    background: #c2dcc2;
+}
+  
+@media all and (max-width: 800px) {
+    .navigation-gal {
+      justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation-gal {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation-gal a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation-gal li:last-of-type a {
+      border-bottom: none;
+    }
+}
+
+.card-img-top {
+    width: 10em;
+    height: 23em;
+}
+
+.border-style {
+    border-style: dashed;
+}
+
+.top-background-con {
+    background-color: #ffd8b2;
+}
+
+.navigation-con {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0;
+}
+  
+.navigation-con a {
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+.navigation-con h3 {
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+  
+.navigation-con a:hover {
+    background: #f5cfaa;
+}
+  
+@media all and (max-width: 800px) {
+    .navigation-con {
+      justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation-con {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation-con a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation-con li:last-of-type a {
+      border-bottom: none;
+    }
+}
+
+.fixed-bg-con {
+    background-image: url(frutiger_yellow.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body-con {
+    padding: 2em;
+    background-color: #ffd8b2;
+}
+
